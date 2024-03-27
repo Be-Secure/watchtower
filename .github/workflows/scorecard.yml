@@ -9,9 +9,9 @@ on:
   branch_protection_rule:
   # To guarantee Maintained check is occasionally updated. See
   # https://github.com/ossf/scorecard/blob/main/docs/checks.md#maintained
-
+ 
   push:
-    branches: [ "v1.0.0_release" ]
+    branches: [ "v0.9.0-beta_release" ]
 
 # Declare default permissions as read only.
 permissions: read-all
